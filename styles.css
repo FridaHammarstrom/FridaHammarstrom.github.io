@@ -58,6 +58,22 @@ a {
   font-size: 25px;
 }
 
+img {
+  width: 100%;
+}
+
+.picturetextcolumns {
+  display: flex;
+}
+
+.picturewidth {
+  width: 60%;
+}
+
+.textgrid {
+  width: 40%;
+}
+
 @import url(https://fonts.googleapis.com/css?family=Dosis:300,400);
 
 body {
