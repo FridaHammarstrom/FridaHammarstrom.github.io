@@ -1,0 +1,98 @@
+body {
+  font-family: Merriweather, serif;
+  font-style: normal;
+  text-align: center;
+  color: #ffffff;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 65pt;
+  font-family: Merriweather;
+  font-style: oblique;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 18 pt;
+  font-family: Merriweather;
+  font-style: oblique;
+}
+
+h3 {
+  color: #ffffff;
+  font-size: 35pt;
+  font-family: Merriweather;
+  font-style: oblique;
+}
+
+.vertical_line {
+  height:1px;
+  width:50%;
+  background:#b5b4b4;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.links {
+  margin: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 25px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Dosis:300,400);
+
+body {
+  background-color:#b3d8d4;
+}
+
+.wrapper {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  -webkit-transform: translate(-50%,-50%);
+}
+
+h1 a {
+  color: #fff;
+  font-size: 30px;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  font-family: 'Merriweather', sans-serif;
+}
+
+/* effect-shine */
+.effect-shine:hover {
+  -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+  -webkit-mask-size: 200%;
+  animation: shine 2s infinite;
+}
+
+@-webkit-keyframes shine {
+  from {
+    -webkit-mask-position: 150%;
+  }
+
+  to {
+    -webkit-mask-position: -50%;
+  }
